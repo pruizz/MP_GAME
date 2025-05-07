@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class EquipoTest {
 
     @Test
-    void getArmaActiva() {
+    public void getArmaActiva() {
         //Caso 1 secuencia normal
         Arma arma = new Arma();
         arma.setNombreArma("Pistola");
@@ -33,7 +33,7 @@ class EquipoTest {
     }
 
     @Test
-    void getArmaduraActiva() {
+    public void getArmaduraActiva() {
         //Caso 1 secuencia normal
         Armadura armadura = new Armadura();
         armadura.setNombreArmadura("Chaleco antibalas");

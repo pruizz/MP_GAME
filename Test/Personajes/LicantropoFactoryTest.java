@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class LicantropoFactoryTest {
 
     @Test
-    void crearPersonaje() {
+    public void crearPersonaje() {
         String datos ="Licantropo\nLanza\nCuchillo\nArmadura de hierro\nArmadura de cuero";
         ByteArrayInputStream in = new ByteArrayInputStream(datos.getBytes());
         System.setIn(in);

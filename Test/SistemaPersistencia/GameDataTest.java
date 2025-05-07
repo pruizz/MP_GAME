@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class GameDataTest {
 
     @Test
-    void verPersonajes() {
+    public void verPersonajes() {
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
         PrintStream originalOut = System.out;
         System.setOut(new PrintStream(outputStream));

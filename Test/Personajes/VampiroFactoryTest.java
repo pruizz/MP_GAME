@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class VampiroFactoryTest {
 
     @Test
-    void solicitarDatos() {
+    public void solicitarDatos() {
         String datos ="Fernando\nCenit\nLanza\nArmadura con pinchos\nArmadura de hierro";
         ByteArrayInputStream in = new ByteArrayInputStream(datos.getBytes());
         PersonajeFactory personajeFactory = new VampiroFactory();
@@ -25,7 +25,7 @@ class VampiroFactoryTest {
     }
 
     @Test
-    void crearPersonaje() {
+    public void crearPersonaje() {
         String datos ="Fernando\nCenit\nLanza\nArmadura con pinchos\nArmadura de hierro\n135";
         ByteArrayInputStream in = new ByteArrayInputStream(datos.getBytes());
         System.setIn(in);

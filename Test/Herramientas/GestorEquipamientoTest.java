@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class GestorEquipamientoTest {
 
     @Test
-    void elegirArmaActiva() {
+    public void elegirArmaActiva() {
         //Caso 1 secuencia normal
         Cazador cazador = new Cazador();
         Equipo equipo = new Equipo();
@@ -49,7 +49,7 @@ class GestorEquipamientoTest {
     }
 
     @Test
-    void elegirArmadura() {
+    public void elegirArmadura() {
         Vampiro vampiro = new Vampiro();
         Equipo equipo = new Equipo();
         Armadura armadura = new Armadura();

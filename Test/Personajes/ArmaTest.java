@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class ArmaTest {
 
     @Test
-    void testClone() {
+    public void testClone() {
         //Caso 1 secuencia normal
         Arma original = new Arma();
         original.setNombreArma("Espada Larga");
@@ -40,7 +40,7 @@ class ArmaTest {
     }
 
     @Test
-    void testHashCode() {
+    public void testHashCode() {
         Arma arma = new Arma();
         arma.setNombreArma("Espada Larga");
         int expectedHash = 983 * "Espada Larga".hashCode();

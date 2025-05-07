@@ -10,15 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class GestorDesafiosJugadorTest {
 
     @Test
-    void desafiarJugador() {
-    }
-
-    @Test
-    void aceptarDesafio() {
-    }
-
-    @Test
-    void hasDesafiosPendientes() {
+    public void hasDesafiosPendientes() {
         Jugador j1 = new Jugador("J1", "prueba");
         Jugador j2 = new Jugador("J2", "prueba");
         Desafio desafio = new Desafio(j1, j2, 1000);

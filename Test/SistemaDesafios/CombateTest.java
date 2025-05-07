@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class CombateTest {
 
     @Test
-    void empezarCombate() {
+    public void empezarCombate() {
         Combate combate = new Combate();
         String datos ="Licantropo\nLanza\nCuchillo\nArmadura de hierro\nArmadura de cuero";
         ByteArrayInputStream in = new ByteArrayInputStream(datos.getBytes());

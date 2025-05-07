@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class UsersDataTest {
 
     @Test
-    void addNewUser() {
+    public void addNewUser() {
         Jugador j = new Jugador("Jugador1", "Jugador1");
         Personaje personaje = new Cazador();
         j.setPersonaje(personaje);
@@ -28,7 +28,7 @@ class UsersDataTest {
     }
 
     @Test
-    void mostrarJugadores() {
+    public void mostrarJugadores() {
         Jugador j = new Jugador("Jugador2", "Jugador2");
         Personaje personaje = new Cazador();
         j.setPersonaje(personaje);
@@ -51,7 +51,7 @@ class UsersDataTest {
     }
 
     @Test
-    void mostrarJugadoresNoAdmin() {
+    public void mostrarJugadoresNoAdmin() {
         UsersData usersData = PersistenciaManager.getInstance().getPersistencia().getUsersData();
 
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
@@ -69,7 +69,7 @@ class UsersDataTest {
     }
 
     @Test
-    void mostrarBloqueados() {
+    public void mostrarBloqueados() {
         Jugador j = new Jugador("Jugador3", "Jugador3");
         Personaje personaje = new Cazador();
         j.setPersonaje(personaje);
@@ -94,7 +94,7 @@ class UsersDataTest {
     }
 
     @Test
-    void mostrarBloqueadosFalse() {
+    public void mostrarBloqueadosFalse() {
         Jugador j = new Jugador("Jugador4", "Jugador4");
         Personaje personaje = new Cazador();
         j.setPersonaje(personaje);

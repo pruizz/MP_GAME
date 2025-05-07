@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class CazadorFactoryTest {
 
     @Test
-    void crearPersonaje() {
+    public void crearPersonaje() {
         String datos = "Cazador\nEspada\nGuadaña\nArmadura de cuero\nArmadura de hierro";
         ByteArrayInputStream in = new ByteArrayInputStream(datos.getBytes());
         System.setIn(in);

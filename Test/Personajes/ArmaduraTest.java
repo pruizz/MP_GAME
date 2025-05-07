@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class ArmaduraTest {
 
     @Test
-    void testClone() {
+    public void testClone() {
         //Caso 1 secuencia normal
         Armadura original = new Armadura();
         original.setNombreArmadura("Casco");

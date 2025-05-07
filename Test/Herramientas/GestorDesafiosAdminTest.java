@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class GestorDesafiosAdminTest {
 
     @Test
-    void validarDesafio() {
+    public void validarDesafio() {
         GestorDesafiosAdmin gestor = new GestorDesafiosAdmin();
         Desafio desafio = new Desafio();
         desafio.setEstado(new PendienteValidacion());
@@ -23,7 +23,7 @@ class GestorDesafiosAdminTest {
     }
 
     @Test
-    void getDesafio() {
+    public void getDesafio() {
         GestorDesafiosAdmin gestor = new GestorDesafiosAdmin();
         ArrayList<Desafio> l = new ArrayList<>();
         gestor.setDesafios(l);
@@ -37,7 +37,7 @@ class GestorDesafiosAdminTest {
     }
 
     @Test
-    void getNumPendientesValidacion() {
+    public void getNumPendientesValidacion() {
         GestorDesafiosAdmin gestor = new GestorDesafiosAdmin();
         ArrayList<Desafio> l = new ArrayList<>();
         gestor.setDesafiosPendientesValidacion(l);

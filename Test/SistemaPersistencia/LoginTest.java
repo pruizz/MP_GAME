@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class LoginTest {
 
     @Test
-    void iniciarSesion() {
+    public void iniciarSesion() {
         Login login = new Login();
         Usuario result = login.iniciarSesion("Admin", "Admin");
         assertNotNull(result);
@@ -17,7 +17,7 @@ class LoginTest {
     }
 
     @Test
-    void iniciarSesionFallidoUsuarioExistente() {
+    public void iniciarSesionFallidoUsuarioExistente() {
         UsersData usersData = PersistenciaManager.getInstance().getPersistencia().getUsersData();
         Usuario admin = usersData.getUsuarioByNick("Admin");
         if (admin != null){
@@ -28,7 +28,7 @@ class LoginTest {
     }
 
     @Test
-    void iniciarSesionFallidoUsuarioNoExistente() {
+    public void iniciarSesionFallidoUsuarioNoExistente() {
         UsersData usersData = PersistenciaManager.getInstance().getPersistencia().getUsersData();
         Usuario admin = usersData.getUsuarioByNick("UsuarioNoExistente");
         if (admin == null){
@@ -39,7 +39,7 @@ class LoginTest {
     }
 
     @Test
-    void registrarJugador() {
+    public void registrarJugador() {
         String datos = "Prueba\nPrueba\nCazador";
         ByteArrayInputStream in = new ByteArrayInputStream(datos.getBytes());
         System.setIn(in);
