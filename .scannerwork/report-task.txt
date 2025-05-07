@@ -2,5 +2,5 @@ projectKey=pruizz_MP_GAME_189a8eb9-05ac-48fe-83f6-3d92a5a50e69
 serverUrl=http://localhost:9000
 serverVersion=25.5.0.107428
 dashboardUrl=http://localhost:9000/dashboard?id=pruizz_MP_GAME_189a8eb9-05ac-48fe-83f6-3d92a5a50e69
-ceTaskId=8303b5d5-186c-4d39-97be-4e580f5aaa19
-ceTaskUrl=http://localhost:9000/api/ce/task?id=8303b5d5-186c-4d39-97be-4e580f5aaa19
+ceTaskId=ea18745d-bfb2-421f-846f-2cb4651ac468
+ceTaskUrl=http://localhost:9000/api/ce/task?id=ea18745d-bfb2-421f-846f-2cb4651ac468
