@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="24" class="java.beans.XMLDecoder">
+ <object class="SistemaPersistencia.PersistenciaXML">
+  <void property="gameData">
+   <object class="SistemaPersistencia.GameData">
+    <void property="equipamiento">
+     <object class="SistemaPersistencia.RegistroEquipamiento" id="RegistroEquipamiento0">
+      <void property="equipamiento">
+       <void method="put">
+        <string>Armadura de hierro</string>
+        <object class="Personajes.Armadura">
+         <void property="modificadorDefensa">
+          <int>2</int>
+         </void>
+         <void property="nombreArmadura">
+          <string>Armadura de hierro</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>Armadura de caballero</string>
+        <object class="Personajes.Armadura">
+         <void property="modificadorAtaque">
+          <int>1</int>
+         </void>
+         <void property="modificadorDefensa">
+          <int>3</int>
+         </void>
+         <void property="nombreArmadura">
+          <string>Armadura de caballero</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>Hacha</string>
+        <object class="Personajes.Arma">
+         <void property="dosManos">
+          <boolean>true</boolean>
+         </void>
+         <void property="modificadorAtaque">
+          <int>2</int>
+         </void>
+         <void property="modificadorDefensa">
+          <int>1</int>
+         </void>
+         <void property="nombreArma">
+          <string>Hacha</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>Guadaña</string>
+        <object class="Personajes.Arma">
+         <void property="dosManos">
+          <boolean>true</boolean>
+         </void>
+         <void property="modificadorAtaque">
+          <int>3</int>
+         </void>
+         <void property="modificadorDefensa">
+          <int>1</int>
+         </void>
+         <void property="nombreArma">
+          <string>Guadaña</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>Cenit</string>
+        <object class="Personajes.Arma">
+         <void property="modificadorAtaque">
+          <int>3</int>
+         </void>
+         <void property="modificadorDefensa">
+          <int>3</int>
+         </void>
+         <void property="nombreArma">
+          <string>Cenit</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>Armadura de cuero</string>
+        <object class="Personajes.Armadura">
+         <void property="modificadorDefensa">
+          <int>1</int>
+         </void>
+         <void property="nombreArmadura">
+          <string>Armadura de cuero</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>Espada</string>
+        <object class="Personajes.Arma">
+         <void property="modificadorAtaque">
+          <int>2</int>
+         </void>
+         <void property="modificadorDefensa">
+          <int>1</int>
+         </void>
+         <void property="nombreArma">
+          <string>Espada</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>Lanza</string>
+        <object class="Personajes.Arma">
+         <void property="dosManos">
+          <boolean>true</boolean>
+         </void>
+         <void property="modificadorAtaque">
+          <int>3</int>
+         </void>
+         <void property="modificadorDefensa">
+          <int>1</int>
+         </void>
+         <void property="nombreArma">
+          <string>Lanza</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>Armadura con pinchos</string>
+        <object class="Personajes.Armadura">
+         <void property="modificadorAtaque">
+          <int>2</int>
+         </void>
+         <void property="modificadorDefensa">
+          <int>2</int>
+         </void>
+         <void property="nombreArmadura">
+          <string>Armadura con pinchos</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>Cuchillo</string>
+        <object class="Personajes.Arma">
+         <void property="modificadorAtaque">
+          <int>1</int>
+         </void>
+         <void property="modificadorDefensa">
+          <int>1</int>
+         </void>
+         <void property="nombreArma">
+          <string>Cuchillo</string>
+         </void>
+        </object>
+       </void>
+      </void>
+     </object>
+    </void>
+    <void property="personajes">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>Licantropo</string>
+       <object class="Personajes.Licantropo">
+        <void property="modificadores">
+         <object class="Personajes.Modificadores">
+          <void property="debilidades">
+           <object class="java.util.ArrayList">
+            <void method="add">
+             <object class="Personajes.Debilidad">
+              <void property="nombreDebilidad">
+               <string>Lazo Lunar</string>
+              </void>
+              <void property="sensibilidad">
+               <int>3</int>
+              </void>
+             </object>
+            </void>
+           </object>
+          </void>
+          <void property="fortalezas">
+           <object class="java.util.ArrayList">
+            <void method="add">
+             <object class="Personajes.Fortaleza">
+              <void property="eficacia">
+               <int>3</int>
+              </void>
+              <void property="nombreFortaleza">
+               <string>Furia Primigenia</string>
+              </void>
+             </object>
+            </void>
+           </object>
+          </void>
+         </object>
+        </void>
+        <void property="oro">
+         <int>100</int>
+        </void>
+        <void property="poder">
+         <int>5</int>
+        </void>
+        <void property="salud">
+         <int>5</int>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>Vampiro</string>
+       <object class="Personajes.Vampiro">
+        <void property="modificadores">
+         <object class="Personajes.Modificadores">
+          <void property="debilidades">
+           <object class="java.util.ArrayList">
+            <void method="add">
+             <object class="Personajes.Debilidad">
+              <void property="nombreDebilidad">
+               <string>El Beso del Alba</string>
+              </void>
+              <void property="sensibilidad">
+               <int>3</int>
+              </void>
+             </object>
+            </void>
+           </object>
+          </void>
+          <void property="fortalezas">
+           <object class="java.util.ArrayList">
+            <void method="add">
+             <object class="Personajes.Fortaleza">
+              <void property="eficacia">
+               <int>3</int>
+              </void>
+              <void property="nombreFortaleza">
+               <string>Voluntad de la Noche</string>
+              </void>
+             </object>
+            </void>
+           </object>
+          </void>
+         </object>
+        </void>
+        <void property="oro">
+         <int>100</int>
+        </void>
+        <void property="poder">
+         <int>5</int>
+        </void>
+        <void property="salud">
+         <int>5</int>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>Cazador</string>
+       <object class="Personajes.Cazador">
+        <void property="modificadores">
+         <object class="Personajes.Modificadores">
+          <void property="debilidades">
+           <object class="java.util.ArrayList">
+            <void method="add">
+             <object class="Personajes.Debilidad">
+              <void property="nombreDebilidad">
+               <string>Fe Quebrada</string>
+              </void>
+              <void property="sensibilidad">
+               <int>3</int>
+              </void>
+             </object>
+            </void>
+           </object>
+          </void>
+          <void property="fortalezas">
+           <object class="java.util.ArrayList">
+            <void method="add">
+             <object class="Personajes.Fortaleza">
+              <void property="eficacia">
+               <int>3</int>
+              </void>
+              <void property="nombreFortaleza">
+               <string>Instinto Letal</string>
+              </void>
+             </object>
+            </void>
+           </object>
+          </void>
+         </object>
+        </void>
+        <void property="oro">
+         <int>100</int>
+        </void>
+        <void property="poder">
+         <int>5</int>
+        </void>
+        <void property="salud">
+         <int>5</int>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="usersData">
+   <object class="SistemaPersistencia.UsersData">
+    <void property="almacenDesafios">
+     <object class="SistemaPersistencia.AlmacenDesafios">
+      <void property="desafios">
+       <object class="java.util.HashMap"/>
+      </void>
+     </object>
+    </void>
+    <void property="login">
+     <object class="SistemaPersistencia.Login"/>
+    </void>
+    <void property="personajesJugadores">
+     <object class="java.util.HashMap"/>
+    </void>
+    <void property="ranking">
+     <object class="java.util.PriorityQueue"/>
+    </void>
+    <void property="usuarios">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>Admin</string>
+       <object class="Herramientas.Administrador">
+        <void property="herramientas">
+         <object class="Herramientas.HerramientasDeAdministrador"/>
+        </void>
+        <void property="password">
+         <string>Admin</string>
+        </void>
+        <void property="userName">
+         <string>Admin</string>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
